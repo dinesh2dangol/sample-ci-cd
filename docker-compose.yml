@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+sample-ci-cd:
+build: .
+container_name: sample-ci-cd
+command: npm test
+volumes:
+- .:/app
+working_dir: /app
