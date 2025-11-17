@@ -22,6 +22,8 @@ jobs:
           # docker build -t ghcr.io/${{ github.repository_owner }}/sample-ci-cd:latest .
           docker build -t ghcr.io/dinesh2dangol/sample-ci-cd:latest .
 
+      - run: echo "Owner is ${{ github.repository_owner }}"
+
       # Push Image to GHCR
       - name: Push Docker Image
         run: |
