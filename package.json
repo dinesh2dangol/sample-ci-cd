@@ -1,7 +1,8 @@
 {
-"name": "sample-ci-cd",
-"version": "1.0.0",
-"scripts": {
-"test": "node test.js"
-}
+  "name": "sample-ci-cd",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js"
+  }
 }
